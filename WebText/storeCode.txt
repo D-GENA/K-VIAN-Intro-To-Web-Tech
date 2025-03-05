@@ -1,0 +1,5 @@
+const toggleBtn = document.querySelector('#toggleBtn');
+const getFooter = document.querySelector('footer');
+const getUl = document.querySelector('footer ul');
+const getLi = document.querySelector('footer ul li');
+const getA = document.querySelector('footer ul li a');
