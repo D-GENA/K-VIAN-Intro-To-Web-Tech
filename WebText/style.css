@@ -75,15 +75,18 @@ footer ul {
   /*border: 1px solid green;*/
   list-style: none;
   white-space: nowrap;
-  padding: 0;
-  margin: 8px 0;
+  /*margin: 8px 0;*/
   text-align: center;
-  position: relative;
-  left:20px;
+  position: inherit;
+  left:50%;
+  width: 100%;
 }
 
 footer ul li {
   display: inline-block;
+  padding-right: 10%;
+  padding-l: 10%;
+ 
  /* border: 1px solid yellow;*/
   
 
@@ -92,17 +95,10 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: black;
-  padding-right: 90px;
- }/*in order to get the link button shorter i would need to change them individually and put each link in its own position*/
+  padding-right: 100%;
+ }/*in order to get the link button shorter i would need to change them individually and 
+ put each link in its own position*/
 
-footer ul li a img:hover{
-  /*height: 35.5px;
-  width:35.5px;*/
-  color:yellow;
-  opacity:.3;
-  transition-duration:.2s;
-  transition-timing-function: ease-in-out;
-}
 
 
 footer ul li a img{
@@ -111,6 +107,22 @@ footer ul li a img{
   width: 35px;
   background-repeat: no-repeat;
 }
+
+footer ul li a img:hover{
+  /*height: 35.5px;
+  width:35.5px;*/
+  opacity:.3;
+  /* transition-duration:.2s;
+  transition-timing-function: ease-in-out; */
+} 
+
+/* footer ul li a img:active{
+  position: inherit;
+  opacity:12;
+  height: 38px;
+  width: 38px;
+  background-repeat: no-repeat;
+} */
 
 #toggleBtn{
   transition-duration:ms;
