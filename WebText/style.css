@@ -56,6 +56,8 @@ header {
 /*  top:-3px;*/
 }
 
+#main-content
+
 
 footer {
   visibility: hidden;
@@ -77,7 +79,7 @@ footer ul {
   white-space: nowrap;
   /*margin: 8px 0;*/
   text-align: center;
-  position: inherit;
+  position: fixed;
   left:50%;
   width: 100%;
 }
@@ -86,6 +88,8 @@ footer ul li {
   display: inline-block;
   padding-right: 10%;
   padding-l: 10%;
+  left: 0;
+  position: absolute;
  
  /* border: 1px solid yellow;*/
   
@@ -96,6 +100,7 @@ footer ul li a {
   text-decoration: none;
   color: black;
   padding-right: 100%;
+  position: absolute;
  }/*in order to get the link button shorter i would need to change them individually and 
  put each link in its own position*/
 
