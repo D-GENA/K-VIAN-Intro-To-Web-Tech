@@ -3,3 +3,62 @@ const getFooter = document.querySelector('footer');
 const getUl = document.querySelector('footer ul');
 const getLi = document.querySelector('footer ul li');
 const getA = document.querySelector('footer ul li a');
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>MJ Couture Fashion Store</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+  <!--app navigation bar-->
+  <header>
+    <div id="head">
+    <h1>MJ Couture</h1>
+    </div>
+    <div id="icon"><a href="">
+     <img id="cart-icon" src="./Icons/cart.png" alt="cart-icon">
+     </a>
+    </div>
+  </header>
+  
+  <!--footer navigation bar-->
+  
+  <footer>
+    <nav>
+      <ul>
+   <li><a href="index.html"><img src="./Icons/home1.png" alt="home-icon"></a></li>
+   <li><a href="#"><img src="./Icons/search3.png" alt="search-icon"></a></li>
+   <li><a href="feed.html"><img src="./Icons/shopper.png" alt="feed-icon"></a></li>
+   <li><a href="#"><img src="./Icons/Notification.png"></a></li>
+   <li><a href="about-us.html"><img src="./Icons/documents.png" alt="about-us-icon"></a></li>
+     </ul>
+    </nav>
+  </footer>
+  
+  <div onclick="footerNavShow()" id="toggleBtn">
+    <img src="./Icons/slide-up.png" alt="slide-up-icon">
+    <p>&copy; 2025 MJ Couture Team</p>
+  </div>
+  
+  
+  <!-- Project -->
+  <script src="main.js">
+   
+  </script>
+</body>
+</html>
