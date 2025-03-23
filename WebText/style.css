@@ -131,7 +131,7 @@ footer ul {
 footer ul li {
   display: inline-block;
   padding-right: 10%;
-  padding-l: 10%;
+  padding: 10%;
  
  /* border: 1px solid yellow;*/
   
@@ -183,6 +183,17 @@ footer ul li a img:hover{
 }
 
 #toggleBtn img{
-position;relative;
+position: relative;
 height: 100%;
+}
+
+/*search input box styling*/
+#searchInput{
+
+  width: 100%;
+ /* padding: 8px 20px 8px 12px; 
+  border: 1px;*/
+  border-radius: 5px; 
+  font-size: 16px;
+  cursor: pointer;
 }
